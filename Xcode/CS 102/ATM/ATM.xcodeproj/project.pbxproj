@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC0D2C501EB6B07000BBD978 /* ATM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC0D2C4E1EB6B07000BBD978 /* ATM.cpp */; };
+		CC6A16171E9EE6C6003618DE /* Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC6A15FF1E9EE6C6003618DE /* Account.cpp */; };
+		CC6A16191E9EE6C6003618DE /* ATMCaseStudy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC6A16031E9EE6C6003618DE /* ATMCaseStudy.cpp */; };
+		CC6A161A1E9EE6C6003618DE /* BalanceInquiry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC6A16041E9EE6C6003618DE /* BalanceInquiry.cpp */; };
+		CC6A161B1E9EE6C6003618DE /* BankDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC6A16061E9EE6C6003618DE /* BankDatabase.cpp */; };
+		CC6A161C1E9EE6C6003618DE /* CashDispenser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC6A16081E9EE6C6003618DE /* CashDispenser.cpp */; };
+		CC6A161D1E9EE6C6003618DE /* Deposit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC6A160A1E9EE6C6003618DE /* Deposit.cpp */; };
+		CC6A161E1E9EE6C6003618DE /* DepositSlot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC6A160C1E9EE6C6003618DE /* DepositSlot.cpp */; };
+		CC6A161F1E9EE6C6003618DE /* Keypad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC6A160E1E9EE6C6003618DE /* Keypad.cpp */; };
+		CC6A16201E9EE6C6003618DE /* Screen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC6A16111E9EE6C6003618DE /* Screen.cpp */; };
+		CC6A16211E9EE6C6003618DE /* Transaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC6A16131E9EE6C6003618DE /* Transaction.cpp */; };
+		CC6A16221E9EE6C6003618DE /* Withdrawal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC6A16151E9EE6C6003618DE /* Withdrawal.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC6A15F31E9EE64B003618DE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC0D2C4E1EB6B07000BBD978 /* ATM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ATM.cpp; sourceTree = "<group>"; };
+		CC0D2C4F1EB6B07000BBD978 /* ATM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATM.h; sourceTree = "<group>"; };
+		CC6A15F51E9EE64B003618DE /* ATM */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ATM; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6A15FF1E9EE6C6003618DE /* Account.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Account.cpp; sourceTree = "<group>"; };
+		CC6A16001E9EE6C6003618DE /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		CC6A16031E9EE6C6003618DE /* ATMCaseStudy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ATMCaseStudy.cpp; sourceTree = "<group>"; };
+		CC6A16041E9EE6C6003618DE /* BalanceInquiry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BalanceInquiry.cpp; sourceTree = "<group>"; };
+		CC6A16051E9EE6C6003618DE /* BalanceInquiry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalanceInquiry.h; sourceTree = "<group>"; };
+		CC6A16061E9EE6C6003618DE /* BankDatabase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BankDatabase.cpp; sourceTree = "<group>"; };
+		CC6A16071E9EE6C6003618DE /* BankDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankDatabase.h; sourceTree = "<group>"; };
+		CC6A16081E9EE6C6003618DE /* CashDispenser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CashDispenser.cpp; sourceTree = "<group>"; };
+		CC6A16091E9EE6C6003618DE /* CashDispenser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashDispenser.h; sourceTree = "<group>"; };
+		CC6A160A1E9EE6C6003618DE /* Deposit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Deposit.cpp; sourceTree = "<group>"; };
+		CC6A160B1E9EE6C6003618DE /* Deposit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deposit.h; sourceTree = "<group>"; };
+		CC6A160C1E9EE6C6003618DE /* DepositSlot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DepositSlot.cpp; sourceTree = "<group>"; };
+		CC6A160D1E9EE6C6003618DE /* DepositSlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepositSlot.h; sourceTree = "<group>"; };
+		CC6A160E1E9EE6C6003618DE /* Keypad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Keypad.cpp; sourceTree = "<group>"; };
+		CC6A160F1E9EE6C6003618DE /* Keypad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keypad.h; sourceTree = "<group>"; };
+		CC6A16111E9EE6C6003618DE /* Screen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Screen.cpp; sourceTree = "<group>"; };
+		CC6A16121E9EE6C6003618DE /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screen.h; sourceTree = "<group>"; };
+		CC6A16131E9EE6C6003618DE /* Transaction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Transaction.cpp; sourceTree = "<group>"; };
+		CC6A16141E9EE6C6003618DE /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		CC6A16151E9EE6C6003618DE /* Withdrawal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Withdrawal.cpp; sourceTree = "<group>"; };
+		CC6A16161E9EE6C6003618DE /* Withdrawal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Withdrawal.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC6A15F21E9EE64B003618DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC6A15EC1E9EE64B003618DE = {
+			isa = PBXGroup;
+			children = (
+				CC6A15F71E9EE64B003618DE /* ATM */,
+				CC6A15F61E9EE64B003618DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC6A15F61E9EE64B003618DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A15F51E9EE64B003618DE /* ATM */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC6A15F71E9EE64B003618DE /* ATM */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A15FF1E9EE6C6003618DE /* Account.cpp */,
+				CC6A16001E9EE6C6003618DE /* Account.h */,
+				CC6A16031E9EE6C6003618DE /* ATMCaseStudy.cpp */,
+				CC0D2C4F1EB6B07000BBD978 /* ATM.h */,
+				CC0D2C4E1EB6B07000BBD978 /* ATM.cpp */,
+				CC6A16041E9EE6C6003618DE /* BalanceInquiry.cpp */,
+				CC6A16051E9EE6C6003618DE /* BalanceInquiry.h */,
+				CC6A16061E9EE6C6003618DE /* BankDatabase.cpp */,
+				CC6A16071E9EE6C6003618DE /* BankDatabase.h */,
+				CC6A16081E9EE6C6003618DE /* CashDispenser.cpp */,
+				CC6A16091E9EE6C6003618DE /* CashDispenser.h */,
+				CC6A160A1E9EE6C6003618DE /* Deposit.cpp */,
+				CC6A160B1E9EE6C6003618DE /* Deposit.h */,
+				CC6A160C1E9EE6C6003618DE /* DepositSlot.cpp */,
+				CC6A160D1E9EE6C6003618DE /* DepositSlot.h */,
+				CC6A160E1E9EE6C6003618DE /* Keypad.cpp */,
+				CC6A160F1E9EE6C6003618DE /* Keypad.h */,
+				CC6A16111E9EE6C6003618DE /* Screen.cpp */,
+				CC6A16121E9EE6C6003618DE /* Screen.h */,
+				CC6A16131E9EE6C6003618DE /* Transaction.cpp */,
+				CC6A16141E9EE6C6003618DE /* Transaction.h */,
+				CC6A16151E9EE6C6003618DE /* Withdrawal.cpp */,
+				CC6A16161E9EE6C6003618DE /* Withdrawal.h */,
+			);
+			path = ATM;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC6A15F41E9EE64B003618DE /* ATM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6A15FC1E9EE64B003618DE /* Build configuration list for PBXNativeTarget "ATM" */;
+			buildPhases = (
+				CC6A15F11E9EE64B003618DE /* Sources */,
+				CC6A15F21E9EE64B003618DE /* Frameworks */,
+				CC6A15F31E9EE64B003618DE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATM;
+			productName = ATM;
+			productReference = CC6A15F51E9EE64B003618DE /* ATM */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC6A15ED1E9EE64B003618DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Manan Thakkar";
+				TargetAttributes = {
+					CC6A15F41E9EE64B003618DE = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 784AU6BD6Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CC6A15F01E9EE64B003618DE /* Build configuration list for PBXProject "ATM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC6A15EC1E9EE64B003618DE;
+			productRefGroup = CC6A15F61E9EE64B003618DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC6A15F41E9EE64B003618DE /* ATM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC6A15F11E9EE64B003618DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6A16191E9EE6C6003618DE /* ATMCaseStudy.cpp in Sources */,
+				CC6A161E1E9EE6C6003618DE /* DepositSlot.cpp in Sources */,
+				CC6A161B1E9EE6C6003618DE /* BankDatabase.cpp in Sources */,
+				CC6A161A1E9EE6C6003618DE /* BalanceInquiry.cpp in Sources */,
+				CC6A16201E9EE6C6003618DE /* Screen.cpp in Sources */,
+				CC6A161F1E9EE6C6003618DE /* Keypad.cpp in Sources */,
+				CC0D2C501EB6B07000BBD978 /* ATM.cpp in Sources */,
+				CC6A161D1E9EE6C6003618DE /* Deposit.cpp in Sources */,
+				CC6A161C1E9EE6C6003618DE /* CashDispenser.cpp in Sources */,
+				CC6A16171E9EE6C6003618DE /* Account.cpp in Sources */,
+				CC6A16221E9EE6C6003618DE /* Withdrawal.cpp in Sources */,
+				CC6A16211E9EE6C6003618DE /* Transaction.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC6A15FA1E9EE64B003618DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC6A15FB1E9EE64B003618DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC6A15FD1E9EE64B003618DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 784AU6BD6Y;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC6A15FE1E9EE64B003618DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 784AU6BD6Y;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC6A15F01E9EE64B003618DE /* Build configuration list for PBXProject "ATM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6A15FA1E9EE64B003618DE /* Debug */,
+				CC6A15FB1E9EE64B003618DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC6A15FC1E9EE64B003618DE /* Build configuration list for PBXNativeTarget "ATM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6A15FD1E9EE64B003618DE /* Debug */,
+				CC6A15FE1E9EE64B003618DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC6A15ED1E9EE64B003618DE /* Project object */;
+}
